@@ -2,13 +2,13 @@
 # Created: February 21st, 2020
 
 """
-These functions are python implementations of fortran subroutines found in:  Blakely, R.J., 1996. Potential Theory in Gravity and Magnetic Applications. Potential Theory in Gravity and Magnetic Applications, by Richard J. Blakely, pp. 461. ISBN 0521575478. Cambridge, UK: Cambridge University Press, September 1996.
+Implementations of fortran subroutines found in:  Blakely, R.J., 1996. Potential Theory in Gravity and Magnetic Applications. Potential Theory in Gravity and Magnetic Applications, by Richard J. Blakely, pp. 461. ISBN 0521575478. Cambridge, UK: Cambridge University Press, September 1996.
 
 Refer to the above citation for details. 
 
 """
 
-gitimport sys 
+import sys 
 import numpy as np 
 from scipy.integrate import tplquad
 
